@@ -3,7 +3,7 @@ function FeaturedStories() {
     <section className="pt-12 pb-4 max-w-[1320px] mx-auto">
       <div className="w-[60%] mx-auto flex items-center justify-center">
         <div className="flex-grow bg-line-d7 h-[1px] mx-2"></div>
-        <div className="text-black-primary-news text-4xl text-center font-bold font-lora">
+        <div className="text-black-primary-news dark:text-white text-4xl text-center font-bold font-lora">
           Featured Stories
         </div>
         <div className="flex-grow bg-line-d7 h-[1px] mx-2"></div>
@@ -18,10 +18,10 @@ function FeaturedStories() {
             />
           </div>
           <div>
-            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2">
+            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news">
+            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
               The Ultimate Guide to New York’s
             </span>
           </div>
@@ -35,10 +35,10 @@ function FeaturedStories() {
             />
           </div>
           <div>
-            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2">
+            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news">
+            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
               The Ultimate Guide to New York’s
             </span>
           </div>
@@ -52,10 +52,10 @@ function FeaturedStories() {
             />
           </div>
           <div>
-            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2">
+            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news">
+            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
               The Ultimate Guide to New York’s
             </span>
           </div>
@@ -69,10 +69,10 @@ function FeaturedStories() {
             />
           </div>
           <div>
-            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2">
+            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news">
+            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
               The Ultimate Guide to New York’s
             </span>
           </div>
@@ -86,10 +86,10 @@ function FeaturedStories() {
             />
           </div>
           <div>
-            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2">
+            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news">
+            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
               The Ultimate Guide to New York’s
             </span>
           </div>
@@ -103,10 +103,10 @@ function FeaturedStories() {
             />
           </div>
           <div>
-            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2">
+            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news">
+            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
               The Ultimate Guide to New York’s
             </span>
           </div>
@@ -120,10 +120,10 @@ function FeaturedStories() {
             />
           </div>
           <div>
-            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2">
+            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news">
+            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
               The Ultimate Guide to New York’s
             </span>
           </div>
@@ -137,10 +137,10 @@ function FeaturedStories() {
             />
           </div>
           <div>
-            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2">
+            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news">
+            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
               The Ultimate Guide to New York’s
             </span>
           </div>
@@ -154,10 +154,10 @@ function FeaturedStories() {
             />
           </div>
           <div>
-            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2">
+            <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news">
+            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
               The Ultimate Guide to New York’s
             </span>
           </div>

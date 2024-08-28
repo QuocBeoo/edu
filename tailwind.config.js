@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js,tsx}"],
+  darkMode: "selector",
   theme: {
     extend: {
       colors: {
@@ -11,6 +12,8 @@ module.exports = {
         "detail-gray": "#7a7e83",
         "info-news-dark": "#dbdbdb",
         "primary-active": "#f91212",
+        "d-main-color": "#0a0d12",
+        "d-sub-title-news": "#989898",
       },
       fontFamily: {
         encode: ["Encode Sans Condensed", "sans-serif"],

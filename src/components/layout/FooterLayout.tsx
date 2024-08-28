@@ -1,17 +1,17 @@
 function FooterLayout() {
   return (
-    <footer className="bg-white pt-12">
+    <footer className="bg-white dark:bg-d-main-color pt-12">
       <div className="flex items-start justify-between py-4 px-6 2xl:px-2 mx-auto max-w-[1320px]">
         <div className="w-[20%] flex flex-col items-start justify-center gap-6">
           <img
             src="https://itcroctheme.com/wp/benqu-wp/newspaper/wp-content/uploads/sites/5/2022/09/logo-news.png"
             alt="Logo"
           />
-          <div className="text-black-primary-news mt-4">
+          <div className="text-black-primary-news dark:text-white mt-4">
             There are many variations of the majority alteration in that some
             slightly believable.
           </div>
-          <div className="text-sm text-black-primary-news">
+          <div className="text-sm text-black-primary-news dark:text-white">
             <div className="mb-4">
               <img
                 className="inline-block w-[14px] mr-2"
@@ -46,35 +46,35 @@ function FooterLayout() {
           </div>
         </div>
         <div className="w-[15%] flex flex-col items-start justify-center gap-4">
-          <div className="text-black-primary-news font-bold text-2xl mb-3">
+          <div className="text-black-primary-news dark:text-white font-bold text-2xl dark:text-white mb-3">
             Useful Links
           </div>
           <ul>
-            <li className="pl-3 relative mb-3">
+            <li className="pl-3 relative mb-3 dark:text-white">
               <span className="cursor-pointer">Blog Index</span>
             </li>
-            <li className="pl-3 relative mb-3">
+            <li className="pl-3 relative mb-3 dark:text-white">
               <span className="cursor-pointer">Company About</span>
             </li>
-            <li className="pl-3 relative mb-3">
+            <li className="pl-3 relative mb-3 dark:text-white">
               <span className="cursor-pointer">Contact With Us</span>
             </li>
-            <li className="pl-3 relative mb-3">
+            <li className="pl-3 relative mb-3 dark:text-white">
               <span className="cursor-pointer">Health Tips</span>
             </li>
-            <li className="pl-3 relative mb-3">
+            <li className="pl-3 relative mb-3 dark:text-white">
               <span className="cursor-pointer">Business & Talkshow</span>
             </li>
-            <li className="pl-3 relative mb-3">
+            <li className="pl-3 relative mb-3 dark:text-white">
               <span className="cursor-pointer">Top Interview</span>
             </li>
-            <li className="pl-3 relative mb-3">
+            <li className="pl-3 relative mb-3 dark:text-white">
               <span className="cursor-pointer">Education & Tech</span>
             </li>
           </ul>
         </div>
         <div className="w-[30%] flex flex-col items-start justify-center gap-4">
-          <div className="text-black-primary-news font-bold text-2xl mb-3">
+          <div className="text-black-primary-news dark:text-white font-bold text-2xl dark:text-white mb-3">
             Populer Posts
           </div>
           <div className="flex flex-col items-center justify-center">
@@ -97,12 +97,12 @@ function FooterLayout() {
                       src="./icons/icon-calendar.svg"
                       alt="icon calendar"
                     />
-                    <span className="info-date text-sub-title-news font-encode">
+                    <span className="info-date text-sub-title-news dark:text-d-sub-title-news font-encode">
                       August 29, 2024
                     </span>
                   </div>
                 </div>
-                <span className="effect-hover-text font-bold text-black-primary-news">
+                <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
                   We Believe Announce Will the iPhone this
                 </span>
               </div>
@@ -126,12 +126,12 @@ function FooterLayout() {
                       src="./icons/icon-calendar.svg"
                       alt="icon calendar"
                     />
-                    <span className="info-date text-sub-title-news font-encode">
+                    <span className="info-date text-sub-title-news dark:text-d-sub-title-news font-encode">
                       August 29, 2024
                     </span>
                   </div>
                 </div>
-                <span className="effect-hover-text font-bold text-black-primary-news">
+                <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
                   We Believe Announce Will the iPhone this
                 </span>
               </div>
@@ -155,12 +155,12 @@ function FooterLayout() {
                       src="./icons/icon-calendar.svg"
                       alt="icon calendar"
                     />
-                    <span className="info-date text-sub-title-news font-encode">
+                    <span className="info-date text-sub-title-news dark:text-d-sub-title-news font-encode">
                       August 29, 2024
                     </span>
                   </div>
                 </div>
-                <span className="effect-hover-text font-bold text-black-primary-news">
+                <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
                   We Believe Announce Will the iPhone this
                 </span>
               </div>
@@ -184,12 +184,12 @@ function FooterLayout() {
                       src="./icons/icon-calendar.svg"
                       alt="icon calendar"
                     />
-                    <span className="info-date text-sub-title-news font-encode">
+                    <span className="info-date text-sub-title-news dark:text-d-sub-title-news font-encode">
                       August 29, 2024
                     </span>
                   </div>
                 </div>
-                <span className="effect-hover-text font-bold text-black-primary-news">
+                <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
                   We Believe Announce Will the iPhone this
                 </span>
               </div>
@@ -197,7 +197,7 @@ function FooterLayout() {
           </div>
         </div>
         <div className="w-[25%]">
-          <div className="text-black-primary-news font-bold text-2xl mb-3">
+          <div className="text-black-primary-news dark:text-white font-bold text-2xl dark:text-white mb-3">
             Broese Tags
           </div>
           <div>
@@ -271,7 +271,7 @@ function FooterLayout() {
         </div>
       </div>
       <div className="border-t border-t-[#d9d9d9]"></div>
-      <div className="flex items-start justify-between py-6 px-6 2xl:px-2 mx-auto max-w-[1320px] text-black-primary-news">
+      <div className="flex items-start justify-between py-6 px-6 2xl:px-2 mx-auto max-w-[1320px] text-black-primary-news dark:text-white">
         <div className="flex items-center justify-center gap-6">
           <div className="hover:text-primary-active cursor-pointer">
             Business

@@ -8,13 +8,24 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-body {
-  background-color: #f9faff;
+/* Toogle */
+.toggle span {
+  transition: left 0.25s;
 }
 
-/* Header */
+.toggle::before,
+.toggle::after {
+  content: "";
+  display: block;
+  border-radius: 1em;
+  position: absolute;
+  z-index: 1;
+}
 
-/* Header */
+input:checked ~ .toggle span {
+  left: 2em;
+}
+/* Toogle */
 
 /* Hover Text */
 .effect-hover-text {
@@ -28,7 +39,7 @@ body {
   background-position-x: left;
 }
 
-.dark-mode .effect-hover-text {
+.dark .effect-hover-text {
   background: linear-gradient(0deg, #fff, #fff) no-repeat right bottom / 0 1px;
 }
 
@@ -171,6 +182,10 @@ footer .info-date:before {
   top: 8px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+.dark footer ul li span:before,
+.dark footer .info-date:before {
+  background: white;
 }
 footer .info-date:before {
   width: 1px;
