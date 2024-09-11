@@ -20,6 +20,12 @@ module.exports = {
         lora: ["Lora", "sans-serif"],
         "dm-san": ["DM Sans", "sans-serif"],
       },
+      transitionDuration: {
+        250: "250ms",
+      },
+      boxShadow: {
+        "hamburger-menu": "2px 2px 6px rgba(0, 0, 0, 0.4)",
+      },
     },
   },
   plugins: [],
