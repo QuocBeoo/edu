@@ -1,7 +1,7 @@
 function HeaderLayout() {
   return (
     <header className="bg-white sticky top-0 z-20 dark:bg-d-main-color">
-      <div className="flex items-center justify-between py-4 px-6 2xl:px-2 mx-auto max-w-[1320px] min-h-[75px]">
+      <div className="items-center justify-between py-4 px-6 2xl:px-2 mx-auto max-w-[1320px] min-h-[75px] hidden lg:flex">
         <div className="mr-[50px]">
           <img
             src="https://itcroctheme.com/wp/benqu-wp/newspaper/wp-content/uploads/sites/5/2022/09/logo-news.png"

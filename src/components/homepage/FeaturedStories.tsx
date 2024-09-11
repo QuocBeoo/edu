@@ -1,15 +1,15 @@
 function FeaturedStories() {
   return (
     <section className="pt-12 pb-4 max-w-[1320px] mx-auto">
-      <div className="w-[60%] mx-auto flex items-center justify-center">
+      <div className="w-full lg:w-[60%] mx-auto flex items-center justify-center">
         <div className="flex-grow bg-line-d7 h-[1px] mx-2"></div>
         <div className="text-black-primary-news dark:text-white text-4xl text-center font-bold font-lora">
           Featured Stories
         </div>
         <div className="flex-grow bg-line-d7 h-[1px] mx-2"></div>
       </div>
-      <div className="max-w-[1320px] mx-auto grid grid-cols-3 font-lora my-8 gap-4">
-        <div className="box-news-effect flex items-center justify-center gap-4 my-6 cursor-pointer">
+      <div className="max-w-[1320px] mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 font-lora my-8 gap-4">
+        <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
           <div className="h-[150px] min-h-[150px] w-[150px] min-w-[150px] overflow-hidden">
             <img
               className="w-[150px] h-[150px] object-cover"
@@ -26,7 +26,7 @@ function FeaturedStories() {
             </span>
           </div>
         </div>
-        <div className="box-news-effect flex items-center justify-center gap-4 my-6 cursor-pointer">
+        <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
           <div className="h-[150px] min-h-[150px] w-[150px] min-w-[150px] overflow-hidden">
             <img
               className="w-[150px] h-[150px] object-cover"
@@ -43,7 +43,7 @@ function FeaturedStories() {
             </span>
           </div>
         </div>
-        <div className="box-news-effect flex items-center justify-center gap-4 my-6 cursor-pointer">
+        <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
           <div className="h-[150px] min-h-[150px] w-[150px] min-w-[150px] overflow-hidden">
             <img
               className="w-[150px] h-[150px] object-cover"
@@ -60,7 +60,7 @@ function FeaturedStories() {
             </span>
           </div>
         </div>
-        <div className="box-news-effect flex items-center justify-center gap-4 my-6 cursor-pointer">
+        <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
           <div className="h-[150px] min-h-[150px] w-[150px] min-w-[150px] overflow-hidden">
             <img
               className="w-[150px] h-[150px] object-cover"
@@ -77,7 +77,7 @@ function FeaturedStories() {
             </span>
           </div>
         </div>
-        <div className="box-news-effect flex items-center justify-center gap-4 my-6 cursor-pointer">
+        <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
           <div className="h-[150px] min-h-[150px] w-[150px] min-w-[150px] overflow-hidden">
             <img
               className="w-[150px] h-[150px] object-cover"
@@ -94,7 +94,7 @@ function FeaturedStories() {
             </span>
           </div>
         </div>
-        <div className="box-news-effect flex items-center justify-center gap-4 my-6 cursor-pointer">
+        <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
           <div className="h-[150px] min-h-[150px] w-[150px] min-w-[150px] overflow-hidden">
             <img
               className="w-[150px] h-[150px] object-cover"
@@ -111,7 +111,7 @@ function FeaturedStories() {
             </span>
           </div>
         </div>
-        <div className="box-news-effect flex items-center justify-center gap-4 my-6 cursor-pointer">
+        <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
           <div className="h-[150px] min-h-[150px] w-[150px] min-w-[150px] overflow-hidden">
             <img
               className="w-[150px] h-[150px] object-cover"
@@ -128,7 +128,7 @@ function FeaturedStories() {
             </span>
           </div>
         </div>
-        <div className="box-news-effect flex items-center justify-center gap-4 my-6 cursor-pointer">
+        <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
           <div className="h-[150px] min-h-[150px] w-[150px] min-w-[150px] overflow-hidden">
             <img
               className="w-[150px] h-[150px] object-cover"
@@ -145,7 +145,7 @@ function FeaturedStories() {
             </span>
           </div>
         </div>
-        <div className="box-news-effect flex items-center justify-center gap-4 my-6 cursor-pointer">
+        <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
           <div className="h-[150px] min-h-[150px] w-[150px] min-w-[150px] overflow-hidden">
             <img
               className="w-[150px] h-[150px] object-cover"

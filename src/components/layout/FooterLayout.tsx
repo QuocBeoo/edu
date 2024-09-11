@@ -1,8 +1,8 @@
 function FooterLayout() {
   return (
     <footer className="bg-white dark:bg-d-main-color pt-12">
-      <div className="flex items-start justify-between py-4 px-6 2xl:px-2 mx-auto max-w-[1320px]">
-        <div className="w-[20%] flex flex-col items-start justify-center gap-6">
+      <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-4 xl:flex items-start justify-between py-4 px-6 2xl:px-2 mx-auto max-w-[1320px]">
+        <div className="xl:w-[20%] inline-block xl:flex flex-col items-start justify-center gap-6">
           <img
             src="https://itcroctheme.com/wp/benqu-wp/newspaper/wp-content/uploads/sites/5/2022/09/logo-news.png"
             alt="Logo"
@@ -45,8 +45,8 @@ function FooterLayout() {
             </div>
           </div>
         </div>
-        <div className="w-[15%] flex flex-col items-start justify-center gap-4">
-          <div className="text-black-primary-news dark:text-white font-bold text-2xl dark:text-white mb-3">
+        <div className="xl:w-[15%] inline-block xl:flex flex-col items-start justify-center gap-4">
+          <div className="text-black-primary-news dark:text-white font-bold text-2xl mb-3">
             Useful Links
           </div>
           <ul>
@@ -73,11 +73,11 @@ function FooterLayout() {
             </li>
           </ul>
         </div>
-        <div className="w-[30%] flex flex-col items-start justify-center gap-4">
-          <div className="text-black-primary-news dark:text-white font-bold text-2xl dark:text-white mb-3">
+        <div className="xl:w-[30%] inline-block xl:flex flex-col items-start justify-center gap-4">
+          <div className="text-black-primary-news dark:text-white font-bold text-2xl mb-3">
             Populer Posts
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-start justify-center">
             <div className="box-news-effect flex items-center justify-center gap-4 mb-6 cursor-pointer">
               <div className="h-[85px] min-h-[85px] w-[110px] min-w-[110px] overflow-hidden rounded-lg">
                 <img
@@ -196,8 +196,8 @@ function FooterLayout() {
             </div>
           </div>
         </div>
-        <div className="w-[25%]">
-          <div className="text-black-primary-news dark:text-white font-bold text-2xl dark:text-white mb-3">
+        <div className="xl:w-[25%] inline-block xl:block">
+          <div className="text-black-primary-news dark:text-white font-bold text-2xl mb-3">
             Broese Tags
           </div>
           <div>
@@ -271,7 +271,7 @@ function FooterLayout() {
         </div>
       </div>
       <div className="border-t border-t-[#d9d9d9]"></div>
-      <div className="flex items-start justify-between py-6 px-6 2xl:px-2 mx-auto max-w-[1320px] text-black-primary-news dark:text-white">
+      <div className="flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-0 flex justify-between py-6 px-6 2xl:px-2 mx-auto max-w-[1320px] text-black-primary-news dark:text-white">
         <div className="flex items-center justify-center gap-6">
           <div className="hover:text-primary-active cursor-pointer">
             Business
