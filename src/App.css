@@ -101,6 +101,10 @@ a {
   transition: 0.3s;
 }
 
+.site-navigation .navigation ul.sub-menu li .effect-sub-menu:after {
+  top: 30%;
+}
+
 .site-navigation .navigation ul.sub-menu {
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
