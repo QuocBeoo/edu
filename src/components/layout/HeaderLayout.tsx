@@ -189,7 +189,7 @@ function HeaderLayout() {
             </label>
 
             <div className="site-navigation flex lg:hidden items-start justify-center !font-encode font-bold menu__box fixed top-0 right-[-100%] w-[300px] h-full m-0 py-[80px] px-6 list-none bg-white duration-250 shadow-hamburger-menu z-[5]">
-              <ul className="w-full navigation flex flex-col items-center dark:text-white">
+              <ul className="w-full navigation flex flex-col items-center">
                 <li className="group w-full menu-item-has-children cursor-pointer pt-3">
                   <a
                     className="relative uppercase group-hover:ml-3 group-hover:text-[#3b60fe]"
@@ -204,14 +204,14 @@ function HeaderLayout() {
                   </a>
                   <hr className="mt-6" />
 
-                  <ul className="sub-menu !shadow-none min-w-[250px] h-0 group-hover:h-auto m-0 py-0 left-0 top-full z-10 rounded-b-md bg-white dark:bg-d-main-color">
+                  <ul className="sub-menu !shadow-none min-w-[250px] h-0 group-hover:h-auto m-0 py-0 left-0 top-full z-10 rounded-b-md bg-white">
                     <li className="block relative cursor-pointer mt-3 border-b pb-4">
-                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3 dark:text-white">
+                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3">
                         Home One
                       </a>
                     </li>
                     <li className="block relative cursor-pointer mt-3 border-b pb-4">
-                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3 dark:text-white">
+                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3">
                         Home Two
                       </a>
                     </li>
@@ -231,14 +231,14 @@ function HeaderLayout() {
                   </a>
                   <hr className="mt-6" />
 
-                  <ul className="sub-menu !shadow-none min-w-[250px] h-0 group-hover:h-auto m-0 py-0 left-0 top-full z-10 rounded-b-md bg-white dark:bg-d-main-color">
+                  <ul className="sub-menu !shadow-none min-w-[250px] h-0 group-hover:h-auto m-0 py-0 left-0 top-full z-10 rounded-b-md bg-white">
                     <li className="block relative cursor-pointer mt-3 border-b pb-4">
-                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3 dark:text-white">
+                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3">
                         Feature One
                       </a>
                     </li>
                     <li className="block relative cursor-pointer mt-3 border-b pb-4">
-                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3 dark:text-white">
+                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3">
                         Feature Two
                       </a>
                     </li>
@@ -253,19 +253,19 @@ function HeaderLayout() {
                   </a>
                   <hr className="mt-6" />
 
-                  <ul className="sub-menu !shadow-none min-w-[250px] h-0 group-hover:h-auto m-0 py-0 left-0 top-full z-10 rounded-b-md bg-white dark:bg-d-main-color">
+                  <ul className="sub-menu !shadow-none min-w-[250px] h-0 group-hover:h-auto m-0 py-0 left-0 top-full z-10 rounded-b-md bg-white">
                     <li className="block relative cursor-pointer mt-3 border-b pb-4">
-                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3 dark:text-white">
+                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3">
                         Category One
                       </a>
                     </li>
                     <li className="block relative cursor-pointer mt-3 border-b pb-4">
-                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3 dark:text-white">
+                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3">
                         Category Two
                       </a>
                     </li>
                     <li className="block relative cursor-pointer mt-3 border-b pb-4">
-                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3 dark:text-white">
+                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3">
                         Category Three
                       </a>
                     </li>
@@ -285,19 +285,19 @@ function HeaderLayout() {
                   </a>
                   <hr className="mt-6" />
 
-                  <ul className="sub-menu !shadow-none min-w-[250px] h-0 group-hover:h-auto m-0 py-0 left-0 top-full z-10 rounded-b-md bg-white dark:bg-d-main-color">
+                  <ul className="sub-menu !shadow-none min-w-[250px] h-0 group-hover:h-auto m-0 py-0 left-0 top-full z-10 rounded-b-md bg-white">
                     <li className="block relative cursor-pointer mt-3 border-b pb-4">
-                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3 dark:text-white">
+                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3">
                         Tag One
                       </a>
                     </li>
                     <li className="block relative cursor-pointer mt-3 border-b pb-4">
-                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3 dark:text-white">
+                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3">
                         Tag Two
                       </a>
                     </li>
                     <li className="block relative cursor-pointer mt-3 border-b pb-4">
-                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3 dark:text-white">
+                      <a className="effect-sub-menu px-3 block hover:ml-5 ml-3">
                         Tag Three
                       </a>
                     </li>
