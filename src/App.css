@@ -54,6 +54,7 @@ input:checked ~ .toggle span {
   transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
+  will-change: transform;
 }
 
 .box-news-effect:hover .img-effect {

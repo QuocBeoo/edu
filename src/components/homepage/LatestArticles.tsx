@@ -77,7 +77,7 @@ function LatestArticles() {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-[40%] box-news-effect cursor-pointer">
+        <div className="order-first lg:order-none	w-full lg:w-[40%] box-news-effect cursor-pointer">
           <img
             className="object-cover w-full h-[300px] lg:h-full"
             src="./imgs/news-now.jpg"
