@@ -18,7 +18,7 @@ function Business() {
               <div className="uppercase font-dm-san font-semibold text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-4 mt-8">
                 July 16, 2022
               </div>
-              <span className="effect-hover-text font-bold text-3xl text-black-primary-news dark:text-white">
+              <span className="effect-hover-text font-bold text-[26px] text-black-primary-news dark:text-white">
                 The Ultimate Guide to New York’s Favorite Food
               </span>
               <div className="mt-3 text-detail-gray leading-7 dark:text-d-sub-title-news">

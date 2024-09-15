@@ -14,6 +14,11 @@ module.exports = {
         "primary-active": "#f91212",
         "d-main-color": "#0a0d12",
         "d-sub-title-news": "#989898",
+        business: "#d6a411",
+        edu: "#02585e",
+        fashion: "#ad0c5c",
+        health: "#0e7c08",
+        interview: "#0dbc99",
       },
       fontFamily: {
         encode: ["Encode Sans Condensed", "sans-serif"],

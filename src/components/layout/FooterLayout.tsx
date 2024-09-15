@@ -1,3 +1,5 @@
+import ListBlog from "../core/ListBlog";
+
 function FooterLayout() {
   return (
     <footer className="bg-white dark:bg-d-main-color pt-12">
@@ -77,124 +79,7 @@ function FooterLayout() {
           <div className="text-black-primary-news dark:text-white font-bold text-2xl mb-3">
             Populer Posts
           </div>
-          <div className="flex flex-col items-start justify-center">
-            <div className="box-news-effect flex items-center justify-center gap-4 mb-6 cursor-pointer">
-              <div className="h-[85px] min-h-[85px] w-[110px] min-w-[110px] overflow-hidden rounded-lg">
-                <img
-                  className="img-effect w-[110px] h-[85px] object-cover"
-                  src="./imgs/news-1.jpg"
-                  alt="news 1"
-                />
-              </div>
-              <div>
-                <div className="uppercase font-dm-san font-semibold text-sm mb-2">
-                  <span className="text-[#ad0c5c] tracking-[1px] ">
-                    Fashion
-                  </span>
-                  <div className="relative pl-2 inline-block ml-2">
-                    <img
-                      className="inline-block w-[17px] mr-1"
-                      src="./icons/icon-calendar.svg"
-                      alt="icon calendar"
-                    />
-                    <span className="info-date text-sub-title-news dark:text-d-sub-title-news font-encode">
-                      August 29, 2024
-                    </span>
-                  </div>
-                </div>
-                <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
-                  We Believe Announce Will the iPhone this
-                </span>
-              </div>
-            </div>
-            <div className="box-news-effect flex items-center justify-center gap-4 mb-6 cursor-pointer">
-              <div className="h-[85px] min-h-[85px] w-[110px] min-w-[110px] overflow-hidden rounded-lg">
-                <img
-                  className="img-effect w-[110px] h-[85px] object-cover"
-                  src="./imgs/news-2.jpg"
-                  alt="news 2"
-                />
-              </div>
-              <div>
-                <div className="uppercase font-dm-san font-semibold text-sm mb-2">
-                  <span className="text-[#ad0c5c] tracking-[1px] ">
-                    Fashion
-                  </span>
-                  <div className="relative pl-2 inline-block ml-2">
-                    <img
-                      className="inline-block w-[17px] mr-1"
-                      src="./icons/icon-calendar.svg"
-                      alt="icon calendar"
-                    />
-                    <span className="info-date text-sub-title-news dark:text-d-sub-title-news font-encode">
-                      August 29, 2024
-                    </span>
-                  </div>
-                </div>
-                <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
-                  We Believe Announce Will the iPhone this
-                </span>
-              </div>
-            </div>
-            <div className="box-news-effect flex items-center justify-center gap-4 mb-6 cursor-pointer">
-              <div className="h-[85px] min-h-[85px] w-[110px] min-w-[110px] overflow-hidden rounded-lg">
-                <img
-                  className="img-effect w-[110px] h-[85px] object-cover"
-                  src="./imgs/news-3.jpg"
-                  alt="news 3"
-                />
-              </div>
-              <div>
-                <div className="uppercase font-dm-san font-semibold text-sm mb-2">
-                  <span className="text-[#ad0c5c] tracking-[1px] ">
-                    Fashion
-                  </span>
-                  <div className="relative pl-2 inline-block ml-2">
-                    <img
-                      className="inline-block w-[17px] mr-1"
-                      src="./icons/icon-calendar.svg"
-                      alt="icon calendar"
-                    />
-                    <span className="info-date text-sub-title-news dark:text-d-sub-title-news font-encode">
-                      August 29, 2024
-                    </span>
-                  </div>
-                </div>
-                <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
-                  We Believe Announce Will the iPhone this
-                </span>
-              </div>
-            </div>
-            <div className="box-news-effect flex items-center justify-center gap-4 mb-6 cursor-pointer">
-              <div className="h-[85px] min-h-[85px] w-[110px] min-w-[110px] overflow-hidden rounded-lg">
-                <img
-                  className="img-effect w-[110px] h-[85px] object-cover"
-                  src="./imgs/news-4.jpg"
-                  alt="news 4"
-                />
-              </div>
-              <div>
-                <div className="uppercase font-dm-san font-semibold text-sm mb-2">
-                  <span className="text-[#ad0c5c] tracking-[1px] ">
-                    Fashion
-                  </span>
-                  <div className="relative pl-2 inline-block ml-2">
-                    <img
-                      className="inline-block w-[17px] mr-1"
-                      src="./icons/icon-calendar.svg"
-                      alt="icon calendar"
-                    />
-                    <span className="info-date text-sub-title-news dark:text-d-sub-title-news font-encode">
-                      August 29, 2024
-                    </span>
-                  </div>
-                </div>
-                <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
-                  We Believe Announce Will the iPhone this
-                </span>
-              </div>
-            </div>
-          </div>
+          <ListBlog />
         </div>
         <div className="xl:w-[25%] inline-block xl:block">
           <div className="text-black-primary-news dark:text-white font-bold text-2xl mb-3">

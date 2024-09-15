@@ -3,6 +3,8 @@ import "./App.css";
 import FooterLayout from "./components/layout/FooterLayout";
 import HeaderLayout from "./components/layout/HeaderLayout";
 import Homepage from "./pages/Homepage";
+import { Routes, Route } from "react-router-dom";
+import Category1 from "./pages/Category1";
 
 function App() {
   const toggleTheme = () => {
@@ -56,7 +58,7 @@ function App() {
       <div className="bg-[#f9faff] dark:bg-d-main-color relative">
         <HeaderLayout />
 
-        <div className="fixed right-4 bottom-[250px] rotate-[-90deg] select-none">
+        <div className="fixed right-4 bottom-[250px] rotate-[-90deg] select-none z-50">
           <input
             onClick={toggleTheme}
             placeholder="dark-mode"
@@ -79,7 +81,10 @@ function App() {
         </div>
 
         <main className="mx-auto">
-          <Homepage />
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/category-1" element={<Category1 />} />
+          </Routes>
         </main>
         <FooterLayout />
       </div>
