@@ -39,7 +39,7 @@ function FooterLayout() {
               <span>info@example.com</span>
             </div>
             <div className="flex items-center justify-start gap-4 mt-8">
-              <div className="hover:bg-[url('./icons/icon-fb-active.svg')] bg-[url('./icons/icon-fb.svg')] w-[20px] h-[20px] bg-contain bg-no-repeat cursor-pointer ease-in duration-300"></div>
+              <div className="hover:bg-[url('./icons/icon-fb-active.svg')] bg-[url('./icons/icon-fb.svg')] dark:bg-[url('./icons/icon-fb-dark.svg')] w-[20px] h-[20px] bg-contain bg-no-repeat cursor-pointer ease-in duration-300"></div>
               <div className="hover:bg-[url('./icons/icon-twitter-active.svg')] bg-[url('./icons/icon-twitter.svg')] w-[20px] h-[20px] bg-contain bg-no-repeat cursor-pointer ease-in duration-300"></div>
               <div className="hover:bg-[url('./icons/icon-instagram-active.svg')] bg-[url('./icons/icon-instagram.svg')] w-[20px] h-[20px] bg-contain bg-no-repeat cursor-pointer ease-in duration-300"></div>
               <div className="hover:bg-[url('./icons/icon-linkedIn-active.svg')] bg-[url('./icons/icon-linkedIn.svg')] w-[20px] h-[20px] bg-contain bg-no-repeat cursor-pointer ease-in duration-300"></div>

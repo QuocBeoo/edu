@@ -19,6 +19,8 @@ module.exports = {
         fashion: "#ad0c5c",
         health: "#0e7c08",
         interview: "#0dbc99",
+        "dark-opacity": "#121213",
+        "black-second-news": "#666"
       },
       fontFamily: {
         encode: ["Encode Sans Condensed", "sans-serif"],

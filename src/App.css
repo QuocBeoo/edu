@@ -39,7 +39,8 @@ input:checked ~ .toggle span {
   background-position-x: left;
 }
 
-.dark .effect-hover-text {
+.dark .effect-hover-text,
+.effect-hover-text-white {
   background: linear-gradient(0deg, #fff, #fff) no-repeat right bottom / 0 1px;
 }
 

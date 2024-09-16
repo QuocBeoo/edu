@@ -5,6 +5,8 @@ import HeaderLayout from "./components/layout/HeaderLayout";
 import Homepage from "./pages/Homepage";
 import { Routes, Route } from "react-router-dom";
 import Category1 from "./pages/Category1";
+import Category2 from "./pages/Category2";
+import Detail from "./pages/Detail";
 
 function App() {
   const toggleTheme = () => {
@@ -17,11 +19,27 @@ function App() {
     }
   };
 
-  useEffect(() => {
+  const checkTheme = () => {
     const theme = localStorage.getItem("theme");
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
+      return;
     }
+    if (theme === "light") {
+      document.documentElement.classList.remove("dark");
+      return;
+    }
+    if (!window.matchMedia) {
+      // matchMedia method not supported
+      return false;
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      //OS theme setting detected as dark
+      document.documentElement.classList.add("dark");
+    }
+  };
+
+  useEffect(() => {
+    checkTheme();
   }, []);
 
   return (
@@ -58,7 +76,7 @@ function App() {
       <div className="bg-[#f9faff] dark:bg-d-main-color relative">
         <HeaderLayout />
 
-        <div className="fixed right-4 bottom-[250px] rotate-[-90deg] select-none z-50">
+        <div className="fixed right-4 bottom-[250px] rotate-[-90deg] select-none z-50 border rounded-xl">
           <input
             onClick={toggleTheme}
             placeholder="dark-mode"
@@ -70,7 +88,7 @@ function App() {
             className="toggle rounded-xl relative bg-[#e8e8e8] dark:bg-white h-[20px] w-[55px] block cursor-pointer"
             htmlFor="darkmode-toggle"
           >
-            <span className="relative bg-white rounded-full block h-[2em] w-[2em] left-[-.5em] overflow-hidden top-[-0.35em] z-10">
+            <span className="relative bg-white rounded-full block h-[2em] w-[2em] left-[-.5em] overflow-hidden top-[-0.35em] z-10 border">
               <img
                 className="absolute left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%]"
                 src="./icons/icon-sun.svg"
@@ -84,6 +102,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/category-1" element={<Category1 />} />
+            <Route path="/category-2" element={<Category2 />} />
+            <Route path="/detail" element={<Detail />} />
           </Routes>
         </main>
         <FooterLayout />
