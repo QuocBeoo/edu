@@ -4,13 +4,23 @@ function Breadcrumbs() {
       <section className="max-w-[1320px] mx-auto">
         <ol className="px-4 xl:px-0 breadcrumbs flex gap-10 py-4 text-black-primary-news dark:text-white font-semibold">
           <li>
-            <a href="/">Home</a>
+            <a
+              className="relative duration-400 hover:text-primary-active"
+              href="/"
+            >
+              Home
+            </a>
           </li>
           <li>
-            <a href="#">Business</a>
+            <a
+              className="relative duration-400 hover:text-primary-active"
+              href="#"
+            >
+              Business
+            </a>
           </li>
           <li>
-            <span>Detail</span>
+            <span className="relative duration-400">Detail</span>
           </li>
         </ol>
       </section>

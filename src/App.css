@@ -9,10 +9,6 @@ body {
 }
 
 /* Toogle */
-.toggle span {
-  transition: left 0.25s;
-}
-
 .toggle::before,
 .toggle::after {
   content: "";
@@ -21,47 +17,7 @@ body {
   position: absolute;
   z-index: 1;
 }
-
-input:checked ~ .toggle span {
-  left: 2em;
-}
 /* Toogle */
-
-/* Hover Text */
-.effect-hover-text {
-  background: linear-gradient(
-      0deg,
-      var(--black-primary-news),
-      var(--black-primary-news)
-    )
-    no-repeat right bottom / 0 1px;
-  transition: background-size 500ms;
-  background-position-x: left;
-}
-
-.dark .effect-hover-text,
-.effect-hover-text-white {
-  background: linear-gradient(0deg, #fff, #fff) no-repeat right bottom / 0 1px;
-}
-
-.box-news-effect:hover .effect-hover-text,
-.effect-hover-text:where(:hover, :focus-visible) {
-  background-size: 100% 1px;
-  background-position-x: left;
-}
-
-.img-effect {
-  -webkit-transition: -webkit-transform 1s ease;
-  transition: -webkit-transform 1s ease;
-  transition: transform 1s ease;
-  transition: transform 1s ease, -webkit-transform 1s ease;
-  will-change: transform;
-}
-
-.box-news-effect:hover .img-effect {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
 
 a {
   display: inline-block;
@@ -73,19 +29,6 @@ a {
 /* Hover Text */
 
 /* Navigation */
-.site-navigation .navigation li:hover ul.sub-menu {
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1);
-}
-
-.ic-dropdown {
-  transition: 0.3s all ease-in-out;
-}
-
-.site-navigation .navigation li:hover .ic-dropdown {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
 
 .site-navigation .navigation ul.sub-menu li a:hover:after {
   width: 13px;
@@ -97,31 +40,14 @@ a {
   background: var(--color-active);
   content: "";
   left: 0.75rem;
-  top: 50%;
+  top: 0.75rem;
   width: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
-.site-navigation .navigation ul.sub-menu li .effect-sub-menu:after {
-  top: 30%;
-}
-
-.site-navigation .navigation ul.sub-menu {
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  -webkit-transform-origin: center top 0;
-  transform-origin: center top 0;
-  box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 5%);
-}
 /* Navigation */
 
 /* Header MB */
-#menu-toggle:checked + .menu-btn > span {
-  transform: rotate(45deg);
-}
 #menu-toggle:checked + .menu-btn > span::before {
   top: 0;
   transform: rotate(0deg);
@@ -129,9 +55,6 @@ a {
 #menu-toggle:checked + .menu-btn > span::after {
   top: 0;
   transform: rotate(90deg);
-}
-#menu-toggle:checked ~ .menu__box {
-  right: 0 !important;
 }
 .menu-btn > span,
 .menu-btn > span::before,
@@ -154,9 +77,6 @@ a {
 /* Header MB */
 
 /* Search Header */
-.box-search .search {
-  transition: all 1s;
-}
 .box-search .search::before {
   content: "";
   position: absolute;
@@ -185,14 +105,6 @@ a {
   border: 2px solid var(--color-input-search);
   transition: all 0.5s;
 }
-.box-search input {
-  transition: all 1s;
-}
-.box-search input:focus ~ .search {
-  z-index: 6;
-  width: 30px;
-  height: 30px;
-}
 .box-search input:focus ~ .search::before {
   top: 0;
   left: 0;
@@ -220,7 +132,7 @@ footer .info-date:before {
   width: 3px;
   height: 12px;
   left: 0;
-  top: 8px;
+  top: 6px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -236,23 +148,9 @@ footer .info-date:before {
 footer ul li span:hover:before {
   background: var(--color-active);
 }
-footer ul li span:hover {
-  color: var(--color-active);
-}
-footer ul li span {
-  transition: 0.4s;
-}
 /* Footer */
 
 /* Breadcrumbs */
-.breadcrumbs > li > a,
-.breadcrumbs > li > span {
-  position: relative;
-  transition: 0.4s;
-}
-.breadcrumbs > li > a:hover {
-  color: var(--color-active);
-}
 .breadcrumbs > li:first-child > a:after {
   content: "";
 }

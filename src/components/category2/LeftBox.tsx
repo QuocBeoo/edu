@@ -18,9 +18,12 @@ function LeftBox() {
                 Business
               </span>
               <br />
-              <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] text-white mb-6">
-                Emirates Palace Spends that a Hefty Sum For…
-              </span>
+              <a href="#" className="line-clamp-2 text-white">
+                <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] mb-6">
+                  Emirates Palace Spends that a Hefty Sum For Emirates Palace
+                  Spends that a Hefty Sum For
+                </span>
+              </a>
               <div className="flex items-center justify-start text-white font-bold font-encode gap-4 xl:gap-8 uppercase text-xs xl:text-sm mt-6">
                 <div className="flex gap-1">
                   <span>by</span>
@@ -55,9 +58,12 @@ function LeftBox() {
                 Business
               </span>
               <br />
-              <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] text-white mb-6">
-                Emirates Palace Spends that a Hefty Sum For…
-              </span>
+              <a href="#" className="line-clamp-2 text-white">
+                <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] mb-6">
+                  Emirates Palace Spends that a Hefty Sum For Emirates Palace
+                  Spends that a Hefty Sum For
+                </span>
+              </a>
               <div className="flex items-center justify-start text-white font-bold font-encode gap-4 xl:gap-8 uppercase text-xs xl:text-sm mt-6">
                 <div className="flex gap-1">
                   <span>by</span>
@@ -92,9 +98,12 @@ function LeftBox() {
                 Business
               </span>
               <br />
-              <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] text-white mb-6">
-                Emirates Palace Spends that a Hefty Sum For…
-              </span>
+              <a href="#" className="line-clamp-2 text-white">
+                <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] mb-6">
+                  Emirates Palace Spends that a Hefty Sum For Emirates Palace
+                  Spends that a Hefty Sum For
+                </span>
+              </a>
               <div className="flex items-center justify-start text-white font-bold font-encode gap-4 xl:gap-8 uppercase text-xs xl:text-sm mt-6">
                 <div className="flex gap-1">
                   <span>by</span>
@@ -129,9 +138,12 @@ function LeftBox() {
                 Business
               </span>
               <br />
-              <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] text-white mb-6">
-                Emirates Palace Spends that a Hefty Sum For…
-              </span>
+              <a href="#" className="line-clamp-2 text-white">
+                <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] mb-6">
+                  Emirates Palace Spends that a Hefty Sum For Emirates Palace
+                  Spends that a Hefty Sum For
+                </span>
+              </a>
               <div className="flex items-center justify-start text-white font-bold font-encode gap-4 xl:gap-8 uppercase text-xs xl:text-sm mt-6">
                 <div className="flex gap-1">
                   <span>by</span>
@@ -166,9 +178,12 @@ function LeftBox() {
                 Business
               </span>
               <br />
-              <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] text-white mb-6">
-                Emirates Palace Spends that a Hefty Sum For…
-              </span>
+              <a href="#" className="line-clamp-2 text-white">
+                <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] mb-6">
+                  Emirates Palace Spends that a Hefty Sum For Emirates Palace
+                  Spends that a Hefty Sum For
+                </span>
+              </a>
               <div className="flex items-center justify-start text-white font-bold font-encode gap-4 xl:gap-8 uppercase text-xs xl:text-sm mt-6">
                 <div className="flex gap-1">
                   <span>by</span>
@@ -203,9 +218,12 @@ function LeftBox() {
                 Business
               </span>
               <br />
-              <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] text-white mb-6">
-                Emirates Palace Spends that a Hefty Sum For…
-              </span>
+              <a href="#" className="line-clamp-2 text-white">
+                <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] mb-6">
+                  Emirates Palace Spends that a Hefty Sum For Emirates Palace
+                  Spends that a Hefty Sum For
+                </span>
+              </a>
               <div className="flex items-center justify-start text-white font-bold font-encode gap-4 xl:gap-8 uppercase text-xs xl:text-sm mt-6">
                 <div className="flex gap-1">
                   <span>by</span>
@@ -240,9 +258,12 @@ function LeftBox() {
                 Business
               </span>
               <br />
-              <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] text-white mb-6">
-                Emirates Palace Spends that a Hefty Sum For…
-              </span>
+              <a href="#" className="line-clamp-2 text-white">
+                <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] mb-6">
+                  Emirates Palace Spends that a Hefty Sum For Emirates Palace
+                  Spends that a Hefty Sum For
+                </span>
+              </a>
               <div className="flex items-center justify-start text-white font-bold font-encode gap-4 xl:gap-8 uppercase text-xs xl:text-sm mt-6">
                 <div className="flex gap-1">
                   <span>by</span>
@@ -277,9 +298,12 @@ function LeftBox() {
                 Business
               </span>
               <br />
-              <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] text-white mb-6">
-                Emirates Palace Spends that a Hefty Sum For…
-              </span>
+              <a href="#" className="line-clamp-2 text-white">
+                <span className="effect-hover-text effect-hover-text-white font-bold text-[26px] mb-6">
+                  Emirates Palace Spends that a Hefty Sum For Emirates Palace
+                  Spends that a Hefty Sum For
+                </span>
+              </a>
               <div className="flex items-center justify-start text-white font-bold font-encode gap-4 xl:gap-8 uppercase text-xs xl:text-sm mt-6">
                 <div className="flex gap-1">
                   <span>by</span>

@@ -20,9 +20,15 @@ function LatestArticles() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Fashion
               </div>
-              <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-xl">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -37,9 +43,15 @@ function LatestArticles() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Fashion
               </div>
-              <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-xl">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -54,9 +66,15 @@ function LatestArticles() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Fashion
               </div>
-              <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-xl">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -71,9 +89,15 @@ function LatestArticles() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Fashion
               </div>
-              <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-xl">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
         </div>
@@ -87,9 +111,17 @@ function LatestArticles() {
             <div className="uppercase font-dm-san font-semibold text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-4 mt-8">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-[26px] text-black-primary-news dark:text-white">
-              The Ultimate Guide to New York’s Favorite Food
-            </span>
+            <a href="#" className="line-clamp-3">
+              <span className="effect-hover-text font-bold text-[26px] text-black-primary-news dark:text-white">
+                The Ultimate Guide to New York’s Favorite Food The Ultimate
+                Guide to New York’s Favorite Food The Ultimate Guide to New
+                York’s Favorite Food The Ultimate Guide to New York’s Favorite
+                Food The Ultimate Guide to New York’s Favorite Food The Ultimate
+                Guide to New York’s Favorite FoodThe Ultimate Guide to New
+                York’s Favorite Food The Ultimate Guide to New York’s Favorite
+                Food The Ultimate Guide to New York’s Favorite Food
+              </span>
+            </a>
             <div className="mt-3 text-detail-gray leading-7 dark:text-d-sub-title-news">
               There are many variations of passages of Lorem Ipsum available but
               the majority have suffered alteration in that

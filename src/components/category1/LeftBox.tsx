@@ -17,9 +17,17 @@ function LeftBox() {
             Business
           </span>
           <br />
-          <span className="effect-hover-text font-bold text-[26px] text-black-primary-news dark:text-white">
-            Emirates Palace Spends that a Hefty Sum For…
-          </span>
+          <a
+            href="#"
+            className="line-clamp-2 text-black-primary-news dark:text-white"
+          >
+            <span className="effect-hover-text font-bold text-[26px]">
+              Emirates Palace Spends that a Hefty Sum For Emirates Palace Spends
+              that a Hefty Sum ForEmirates Palace Spends that a Hefty Sum
+              ForEmirates Palace Spends that a Hefty Sum ForEmirates Palace
+              Spends that a Hefty Sum For
+            </span>
+          </a>
           <div className="my-3 text-detail-gray leading-7 dark:text-d-sub-title-news">
             There are many variations of passages of Lorem Ipsum available but
             the majority have suffered alteration in that
@@ -57,9 +65,17 @@ function LeftBox() {
             Fashion
           </span>
           <br />
-          <span className="effect-hover-text font-bold text-[26px] text-black-primary-news dark:text-white">
-            Emirates Palace Spends that a Hefty Sum For…
-          </span>
+          <a
+            href="#"
+            className="line-clamp-2 text-black-primary-news dark:text-white"
+          >
+            <span className="effect-hover-text font-bold text-[26px]">
+              Emirates Palace Spends that a Hefty Sum For Emirates Palace Spends
+              that a Hefty Sum ForEmirates Palace Spends that a Hefty Sum
+              ForEmirates Palace Spends that a Hefty Sum ForEmirates Palace
+              Spends that a Hefty Sum For
+            </span>
+          </a>
           <div className="my-3 text-detail-gray leading-7 dark:text-d-sub-title-news">
             There are many variations of passages of Lorem Ipsum available but
             the majority have suffered alteration in that
@@ -97,9 +113,17 @@ function LeftBox() {
             Interview
           </span>
           <br />
-          <span className="effect-hover-text font-bold text-[26px] text-black-primary-news dark:text-white">
-            Emirates Palace Spends that a Hefty Sum For…
-          </span>
+          <a
+            href="#"
+            className="line-clamp-2 text-black-primary-news dark:text-white"
+          >
+            <span className="effect-hover-text font-bold text-[26px]">
+              Emirates Palace Spends that a Hefty Sum For Emirates Palace Spends
+              that a Hefty Sum ForEmirates Palace Spends that a Hefty Sum
+              ForEmirates Palace Spends that a Hefty Sum ForEmirates Palace
+              Spends that a Hefty Sum For
+            </span>
+          </a>
           <div className="my-3 text-detail-gray leading-7 dark:text-d-sub-title-news">
             There are many variations of passages of Lorem Ipsum available but
             the majority have suffered alteration in that
@@ -137,9 +161,17 @@ function LeftBox() {
             education
           </span>
           <br />
-          <span className="effect-hover-text font-bold text-[26px] text-black-primary-news dark:text-white">
-            Emirates Palace Spends that a Hefty Sum For…
-          </span>
+          <a
+            href="#"
+            className="line-clamp-2 text-black-primary-news dark:text-white"
+          >
+            <span className="effect-hover-text font-bold text-[26px]">
+              Emirates Palace Spends that a Hefty Sum For Emirates Palace Spends
+              that a Hefty Sum ForEmirates Palace Spends that a Hefty Sum
+              ForEmirates Palace Spends that a Hefty Sum ForEmirates Palace
+              Spends that a Hefty Sum For
+            </span>
+          </a>
           <div className="my-3 text-detail-gray leading-7 dark:text-d-sub-title-news">
             There are many variations of passages of Lorem Ipsum available but
             the majority have suffered alteration in that
@@ -177,9 +209,17 @@ function LeftBox() {
             health
           </span>
           <br />
-          <span className="effect-hover-text font-bold text-[26px] text-black-primary-news dark:text-white">
-            Emirates Palace Spends that a Hefty Sum For…
-          </span>
+          <a
+            href="#"
+            className="line-clamp-2 text-black-primary-news dark:text-white"
+          >
+            <span className="effect-hover-text font-bold text-[26px]">
+              Emirates Palace Spends that a Hefty Sum For Emirates Palace Spends
+              that a Hefty Sum ForEmirates Palace Spends that a Hefty Sum
+              ForEmirates Palace Spends that a Hefty Sum ForEmirates Palace
+              Spends that a Hefty Sum For
+            </span>
+          </a>
           <div className="my-3 text-detail-gray leading-7 dark:text-d-sub-title-news">
             There are many variations of passages of Lorem Ipsum available but
             the majority have suffered alteration in that
@@ -217,9 +257,17 @@ function LeftBox() {
             Business
           </span>
           <br />
-          <span className="effect-hover-text font-bold text-[26px] text-black-primary-news dark:text-white">
-            Emirates Palace Spends that a Hefty Sum For…
-          </span>
+          <a
+            href="#"
+            className="line-clamp-2 text-black-primary-news dark:text-white"
+          >
+            <span className="effect-hover-text font-bold text-[26px]">
+              Emirates Palace Spends that a Hefty Sum For Emirates Palace Spends
+              that a Hefty Sum ForEmirates Palace Spends that a Hefty Sum
+              ForEmirates Palace Spends that a Hefty Sum ForEmirates Palace
+              Spends that a Hefty Sum For
+            </span>
+          </a>
           <div className="my-3 text-detail-gray leading-7 dark:text-d-sub-title-news">
             There are many variations of passages of Lorem Ipsum available but
             the majority have suffered alteration in that

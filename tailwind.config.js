@@ -20,7 +20,7 @@ module.exports = {
         health: "#0e7c08",
         interview: "#0dbc99",
         "dark-opacity": "#121213",
-        "black-second-news": "#666"
+        "black-second-news": "#666",
       },
       fontFamily: {
         encode: ["Encode Sans Condensed", "sans-serif"],
@@ -32,7 +32,11 @@ module.exports = {
       },
       boxShadow: {
         "hamburger-menu": "2px 2px 6px rgba(0, 0, 0, 0.4)",
+        "site-navigation": "0px 5px 10px 0px rgb(0 0 0 / 5%)",
       },
+      transitionDuration: {
+        '400': '400ms',
+      }
     },
   },
   plugins: [],

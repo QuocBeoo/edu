@@ -53,25 +53,39 @@ function FooterLayout() {
           </div>
           <ul>
             <li className="pl-3 relative mb-3 dark:text-white">
-              <span className="cursor-pointer">Blog Index</span>
+              <span className="cursor-pointer hover:text-primary-active duration-400">
+                Blog Index
+              </span>
             </li>
             <li className="pl-3 relative mb-3 dark:text-white">
-              <span className="cursor-pointer">Company About</span>
+              <span className="cursor-pointer hover:text-primary-active duration-400">
+                Company About
+              </span>
             </li>
             <li className="pl-3 relative mb-3 dark:text-white">
-              <span className="cursor-pointer">Contact With Us</span>
+              <span className="cursor-pointer hover:text-primary-active duration-400">
+                Contact With Us
+              </span>
             </li>
             <li className="pl-3 relative mb-3 dark:text-white">
-              <span className="cursor-pointer">Health Tips</span>
+              <span className="cursor-pointer hover:text-primary-active duration-400">
+                Health Tips
+              </span>
             </li>
             <li className="pl-3 relative mb-3 dark:text-white">
-              <span className="cursor-pointer">Business & Talkshow</span>
+              <span className="cursor-pointer hover:text-primary-active duration-400">
+                Business & Talkshow
+              </span>
             </li>
             <li className="pl-3 relative mb-3 dark:text-white">
-              <span className="cursor-pointer">Top Interview</span>
+              <span className="cursor-pointer hover:text-primary-active duration-400">
+                Top Interview
+              </span>
             </li>
             <li className="pl-3 relative mb-3 dark:text-white">
-              <span className="cursor-pointer">Education & Tech</span>
+              <span className="cursor-pointer hover:text-primary-active duration-400">
+                Education & Tech
+              </span>
             </li>
           </ul>
         </div>

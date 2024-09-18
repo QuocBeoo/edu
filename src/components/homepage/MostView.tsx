@@ -21,9 +21,12 @@ function MostView() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news-dark tracking-[1px] mb-2">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a href="#" className="line-clamp-2 text-white">
+              <span className="effect-hover-text effect-hover-text-white font-bold text-xl text-white">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -38,9 +41,12 @@ function MostView() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news-dark tracking-[1px] mb-2">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a href="#" className="line-clamp-2 text-white">
+              <span className="effect-hover-text effect-hover-text-white font-bold text-xl text-white">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -55,9 +61,12 @@ function MostView() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news-dark tracking-[1px] mb-2">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a href="#" className="line-clamp-2 text-white">
+              <span className="effect-hover-text effect-hover-text-white font-bold text-xl text-white">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -72,9 +81,12 @@ function MostView() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news-dark tracking-[1px] mb-2">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a href="#" className="line-clamp-2 text-white">
+              <span className="effect-hover-text effect-hover-text-white font-bold text-xl text-white">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -89,9 +101,12 @@ function MostView() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news-dark tracking-[1px] mb-2">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a href="#" className="line-clamp-2 text-white">
+              <span className="effect-hover-text effect-hover-text-white font-bold text-xl text-white">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -106,9 +121,12 @@ function MostView() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news-dark tracking-[1px] mb-2">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a href="#" className="line-clamp-2 text-white">
+              <span className="effect-hover-text effect-hover-text-white font-bold text-xl text-white">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -123,9 +141,12 @@ function MostView() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news-dark tracking-[1px] mb-2">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a href="#" className="line-clamp-2 text-white">
+              <span className="effect-hover-text effect-hover-text-white font-bold text-xl text-white">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -140,9 +161,12 @@ function MostView() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news-dark tracking-[1px] mb-2">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a href="#" className="line-clamp-2 text-white">
+              <span className="effect-hover-text effect-hover-text-white font-bold text-xl text-white">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -157,9 +181,12 @@ function MostView() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news-dark tracking-[1px] mb-2">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a href="#" className="line-clamp-2 text-white">
+              <span className="effect-hover-text effect-hover-text-white font-bold text-xl text-white">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
       </div>

@@ -44,35 +44,6 @@ function App() {
 
   return (
     <>
-      {/* <div className="p-4">
-      <p>
-        <span className="text-black-primary-news dark:text-white no-underline font-bold text-xl cursor-pointer effect-hover-text">
-          Xin chào
-          <br />
-          tôi muốn test hover effect
-        </span>
-      </p>
-      <div className="site-navigation">
-        <ul id="menu-primary-menu" className="navigation">
-          <li className="inline-block relative menu-item-has-children">
-            <a
-              href="https://itcroctheme.com/wp/benqu-wp/newspaper/"
-              aria-current="page"
-            >
-              Home
-            </a>
-            <ul className="sub-menu min-w-[150px] block m-0 py-3 px-3 h-auto absolute left-0 top-full z-10 rounded-b-md bg-white">
-              <li className="block relative cursor-pointer my-3">
-                <a className="block hover:ml-5 ml-3">Home One</a>
-              </li>
-              <li className="block relative cursor-pointer">
-                <a className="block hover:ml-5 ml-3 my-3">Home One</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div> */}
       <div className="bg-[#f9faff] dark:bg-d-main-color relative">
         <HeaderLayout />
 
@@ -81,14 +52,14 @@ function App() {
             onClick={toggleTheme}
             placeholder="dark-mode"
             type="checkbox"
-            className="sr-only"
+            className="peer sr-only"
             id="darkmode-toggle"
           />
           <label
-            className="toggle rounded-xl relative bg-[#e8e8e8] dark:bg-white h-[20px] w-[55px] block cursor-pointer"
+            className="group toggle rounded-xl relative bg-[#e8e8e8] dark:bg-white h-[20px] w-[55px] block cursor-pointer"
             htmlFor="darkmode-toggle"
           >
-            <span className="relative bg-white rounded-full block h-[2em] w-[2em] left-[-.5em] overflow-hidden top-[-0.35em] z-10 border">
+            <span className="peer-checked:group-[]:left-[2em] transition-[left] duration-250 relative bg-white rounded-full block h-[2em] w-[2em] left-[-.5em] overflow-hidden top-[-0.35em] z-10 border">
               <img
                 className="absolute left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%]"
                 src="./icons/icon-sun.svg"

@@ -21,9 +21,15 @@ function FeaturedStories() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a
+              href="#"
+              className="line-clamp-2 text-black-primary-news dark:text-white"
+            >
+              <span className="effect-hover-text font-bold text-xl">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -38,9 +44,15 @@ function FeaturedStories() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a
+              href="#"
+              className="line-clamp-2 text-black-primary-news dark:text-white"
+            >
+              <span className="effect-hover-text font-bold text-xl">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -55,9 +67,15 @@ function FeaturedStories() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a
+              href="#"
+              className="line-clamp-2 text-black-primary-news dark:text-white"
+            >
+              <span className="effect-hover-text font-bold text-xl">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -72,9 +90,15 @@ function FeaturedStories() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a
+              href="#"
+              className="line-clamp-2 text-black-primary-news dark:text-white"
+            >
+              <span className="effect-hover-text font-bold text-xl">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -89,9 +113,15 @@ function FeaturedStories() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a
+              href="#"
+              className="line-clamp-2 text-black-primary-news dark:text-white"
+            >
+              <span className="effect-hover-text font-bold text-xl">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -106,9 +136,15 @@ function FeaturedStories() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a
+              href="#"
+              className="line-clamp-2 text-black-primary-news dark:text-white"
+            >
+              <span className="effect-hover-text font-bold text-xl">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -123,9 +159,15 @@ function FeaturedStories() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a
+              href="#"
+              className="line-clamp-2 text-black-primary-news dark:text-white"
+            >
+              <span className="effect-hover-text font-bold text-xl">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -140,9 +182,15 @@ function FeaturedStories() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a
+              href="#"
+              className="line-clamp-2 text-black-primary-news dark:text-white"
+            >
+              <span className="effect-hover-text font-bold text-xl">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
         <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
@@ -157,9 +205,15 @@ function FeaturedStories() {
             <div className="uppercase font-dm-san font-medium text-sm text-info-news tracking-[1px] mb-2 dark:text-d-sub-title-news">
               July 16, 2022
             </div>
-            <span className="effect-hover-text font-bold text-xl text-black-primary-news dark:text-white">
-              The Ultimate Guide to New York’s
-            </span>
+            <a
+              href="#"
+              className="line-clamp-2 text-black-primary-news dark:text-white"
+            >
+              <span className="effect-hover-text font-bold text-xl">
+                The Ultimate Guide to New York’s The Ultimate Guide to New
+                York’s
+              </span>
+            </a>
           </div>
         </div>
       </div>

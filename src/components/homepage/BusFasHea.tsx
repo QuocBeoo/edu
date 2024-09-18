@@ -18,9 +18,15 @@ function BusFasHea() {
               <div className="text-sm uppercase font-dm-san font-semibold text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-4">
                 Business
               </div>
-              <span className="text-2xl	effect-hover-text font-bold text-black-primary-news dark:text-white">
-                Take a Look Back at the Most Absurd
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="text-2xl	effect-hover-text font-bold">
+                  Take a Look Back at the Most Absurd Take a Look Back at the
+                  Most Absurd
+                </span>
+              </a>
               <div className="mt-3 text-detail-gray leading-7 dark:text-d-sub-title-news">
                 There are many variations of passages of Lorem Ipsum
               </div>
@@ -34,9 +40,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="w-full box-news-effect flex items-center justify-start lg:justify-center gap-4 mb-6 cursor-pointer border-b border-b-line-d7 pb-6">
@@ -47,9 +59,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="w-full box-news-effect flex items-center justify-start lg:justify-center gap-4 mb-6 cursor-pointer border-b border-b-line-d7 pb-6">
@@ -60,9 +78,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="w-full box-news-effect flex items-center justify-start lg:justify-center gap-4 mb-6 cursor-pointer">
@@ -73,9 +97,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
         </div>
@@ -95,9 +125,15 @@ function BusFasHea() {
               <div className="text-sm uppercase font-dm-san font-semibold text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-4">
                 Business
               </div>
-              <span className="text-2xl	effect-hover-text font-bold text-black-primary-news dark:text-white">
-                Take a Look Back at the Most Absurd
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="text-2xl	effect-hover-text font-bold">
+                  Take a Look Back at the Most Absurd Take a Look Back at the
+                  Most Absurd
+                </span>
+              </a>
               <div className="mt-3 text-detail-gray leading-7 dark:text-d-sub-title-news">
                 There are many variations of passages of Lorem Ipsum
               </div>
@@ -111,9 +147,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="w-full box-news-effect flex items-center justify-start lg:justify-center gap-4 mb-6 cursor-pointer border-b border-b-line-d7 pb-6">
@@ -124,9 +166,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="w-full box-news-effect flex items-center justify-start lg:justify-center gap-4 mb-6 cursor-pointer border-b border-b-line-d7 pb-6">
@@ -137,9 +185,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="w-full box-news-effect flex items-center justify-start lg:justify-center gap-4 mb-6 cursor-pointer">
@@ -150,9 +204,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
         </div>
@@ -172,9 +232,15 @@ function BusFasHea() {
               <div className="text-sm uppercase font-dm-san font-semibold text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-4">
                 Business
               </div>
-              <span className="text-2xl	effect-hover-text font-bold text-black-primary-news dark:text-white">
-                Take a Look Back at the Most Absurd
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="text-2xl	effect-hover-text font-bold">
+                  Take a Look Back at the Most Absurd Take a Look Back at the
+                  Most Absurd
+                </span>
+              </a>
               <div className="mt-3 text-detail-gray leading-7 dark:text-d-sub-title-news">
                 There are many variations of passages of Lorem Ipsum
               </div>
@@ -188,9 +254,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="w-full box-news-effect flex items-center justify-start lg:justify-center gap-4 mb-6 cursor-pointer border-b border-b-line-d7 pb-6">
@@ -201,9 +273,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="w-full box-news-effect flex items-center justify-start lg:justify-center gap-4 mb-6 cursor-pointer border-b border-b-line-d7 pb-6">
@@ -214,9 +292,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
           <div className="w-full box-news-effect flex items-center justify-start lg:justify-center gap-4 mb-6 cursor-pointer">
@@ -227,9 +311,15 @@ function BusFasHea() {
               <div className="uppercase font-dm-san font-semibold text-sm text-sub-title-news dark:text-d-sub-title-news tracking-[1px] mb-2">
                 Education
               </div>
-              <span className="effect-hover-text font-bold text-lg text-black-primary-news dark:text-white">
-                We Believe Announce Will the iPhone this
-              </span>
+              <a
+                href="#"
+                className="line-clamp-2 text-black-primary-news dark:text-white"
+              >
+                <span className="effect-hover-text font-bold text-lg">
+                  We Believe Announce Will the iPhone this We Believe Announce
+                  Will the iPhone this
+                </span>
+              </a>
             </div>
           </div>
         </div>

@@ -23,9 +23,15 @@ function ListBlog() {
               </span>
             </div>
           </div>
-          <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
-            We Believe Announce Will the iPhone this
-          </span>
+          <a
+            href="#"
+            className="line-clamp-2 text-black-primary-news dark:text-white"
+          >
+            <span className="effect-hover-text font-bold">
+              We Believe Announce Will the iPhone this We Believe Announce Will
+              the iPhone this
+            </span>
+          </a>
         </div>
       </div>
       <div className="box-news-effect flex items-center justify-center gap-4 mb-6 cursor-pointer">
@@ -48,9 +54,15 @@ function ListBlog() {
               </span>
             </div>
           </div>
-          <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
-            We Believe Announce Will the iPhone this
-          </span>
+          <a
+            href="#"
+            className="line-clamp-2 text-black-primary-news dark:text-white"
+          >
+            <span className="effect-hover-text font-bold">
+              We Believe Announce Will the iPhone this We Believe Announce Will
+              the iPhone this
+            </span>
+          </a>
         </div>
       </div>
       <div className="box-news-effect flex items-center justify-center gap-4 mb-6 cursor-pointer">
@@ -73,9 +85,15 @@ function ListBlog() {
               </span>
             </div>
           </div>
-          <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
-            We Believe Announce Will the iPhone this
-          </span>
+          <a
+            href="#"
+            className="line-clamp-2 text-black-primary-news dark:text-white"
+          >
+            <span className="effect-hover-text font-bold">
+              We Believe Announce Will the iPhone this We Believe Announce Will
+              the iPhone this
+            </span>
+          </a>
         </div>
       </div>
       <div className="box-news-effect flex items-center justify-center gap-4 mb-6 cursor-pointer">
@@ -98,9 +116,15 @@ function ListBlog() {
               </span>
             </div>
           </div>
-          <span className="effect-hover-text font-bold text-black-primary-news dark:text-white">
-            We Believe Announce Will the iPhone this
-          </span>
+          <a
+            href="#"
+            className="line-clamp-2 text-black-primary-news dark:text-white"
+          >
+            <span className="effect-hover-text font-bold">
+              We Believe Announce Will the iPhone this We Believe Announce Will
+              the iPhone this
+            </span>
+          </a>
         </div>
       </div>
     </div>
