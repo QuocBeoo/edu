@@ -2,6 +2,12 @@
   --black-primary-news: #1d2027;
   --color-active: #f91212;
   --color-input-search: #8d8d8d;
+  --bg-icon-mode: #fff;
+  --page-color-transition: background 0.2s ease, color 0.2s ease;
+}
+
+.dark {
+  --bg-icon-mode: #0a0d12;
 }
 
 body {
@@ -163,3 +169,50 @@ footer ul li span:hover:before {
   color: #434343;
 }
 /* Breadcrumbs */
+
+/* Icon dark mode */
+.dark-mode-icon::after {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  left: 8px;
+  bottom: 4px;
+  border-radius: 10px;
+  background: var(--bg-icon-mode);
+  transform-origin: center center;
+  transition: transform 0.5s ease, left 0.25s ease, bottom 0.25s ease,
+    var(--page-color-transition);
+}
+
+.dark .dark-mode-icon::after {
+  left: 15px;
+  bottom: 8px;
+  transform: scale(0);
+}
+
+.dark .ray-ic-mode:nth-child(1) {
+  transform: rotate(45deg) translateX(-16px);
+}
+.dark .ray-ic-mode:nth-child(2) {
+  transform: rotate(90deg) translateX(-16px);
+}
+.dark .ray-ic-mode:nth-child(3) {
+  transform: rotate(135deg) translateX(-16px);
+}
+.dark .ray-ic-mode:nth-child(4) {
+  transform: rotate(180deg) translateX(-16px);
+}
+.dark .ray-ic-mode:nth-child(5) {
+  transform: rotate(225deg) translateX(-16px);
+}
+.dark .ray-ic-mode:nth-child(6) {
+  transform: rotate(270deg) translateX(-16px);
+}
+.dark .ray-ic-mode:nth-child(7) {
+  transform: rotate(315deg) translateX(-16px);
+}
+.dark .ray-ic-mode:nth-child(8) {
+  transform: rotate(360deg) translateX(-16px);
+}
+/* Icon dark mode */

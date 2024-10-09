@@ -35,8 +35,11 @@ module.exports = {
         "site-navigation": "0px 5px 10px 0px rgb(0 0 0 / 5%)",
       },
       transitionDuration: {
-        '400': '400ms',
-      }
+        400: "400ms",
+      },
+      animation: {
+        "page-color-transition": "background 0.2s ease, color 0.2s ease",
+      },
     },
   },
   plugins: [],

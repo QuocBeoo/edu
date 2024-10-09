@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "./App.css";
 import FooterLayout from "./components/layout/FooterLayout";
 import HeaderLayout from "./components/layout/HeaderLayout";
@@ -9,45 +8,11 @@ import Category2 from "./pages/Category2";
 import Detail from "./pages/Detail";
 
 function App() {
-  const toggleTheme = () => {
-    if (document.documentElement.classList.contains("dark")) {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    } else {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    }
-  };
-
-  const checkTheme = () => {
-    const theme = localStorage.getItem("theme");
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-      return;
-    }
-    if (theme === "light") {
-      document.documentElement.classList.remove("dark");
-      return;
-    }
-    if (!window.matchMedia) {
-      // matchMedia method not supported
-      return false;
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      //OS theme setting detected as dark
-      document.documentElement.classList.add("dark");
-    }
-  };
-
-  useEffect(() => {
-    checkTheme();
-  }, []);
-
   return (
     <>
       <div className="bg-[#f9faff] dark:bg-d-main-color relative">
         <HeaderLayout />
-
-        <div className="fixed right-4 bottom-[250px] rotate-[-90deg] select-none z-50 border rounded-xl">
+        {/* <div className="fixed right-4 bottom-[250px] rotate-[-90deg] select-none z-50 border rounded-xl">
           <input
             onClick={toggleTheme}
             placeholder="dark-mode"
@@ -67,7 +32,7 @@ function App() {
               />
             </span>
           </label>
-        </div>
+        </div> */}
 
         <main className="mx-auto">
           <Routes>
