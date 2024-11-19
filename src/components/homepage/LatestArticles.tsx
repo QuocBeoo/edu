@@ -128,7 +128,7 @@ function LatestArticles() {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-[30%] flex-1 flex flex-col items-start lg:items-center justify-center">
+        <div className="w-full lg:w-[30%] flex-1 flex flex-col items-start lg:items-center justify-center sticky top-0">
           <div className="w-full border-b border-b-line-d7 pb-4">
             <h3 className="font-bold text-2xl dark:text-white">Just Now</h3>
           </div>

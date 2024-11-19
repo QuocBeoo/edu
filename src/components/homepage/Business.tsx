@@ -104,7 +104,7 @@ function Business() {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-[30%] flex-1 flex flex-col items-start lg:items-center justify-center bg-[#f1f2f6] py-6 px-6 dark:bg-[#191a1d]">
+        <div className="w-full lg:w-[30%] flex-1 flex flex-col items-start lg:items-center justify-center sticky top-0 bg-[#f1f2f6] py-6 px-6 dark:bg-[#191a1d]">
           <div className="w-full box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer border-b border-b-line-d7 pb-6">
             <div className="rounded-full h-[70px] min-h-[70px] w-[70px] min-w-[70px] overflow-hidden">
               <img
