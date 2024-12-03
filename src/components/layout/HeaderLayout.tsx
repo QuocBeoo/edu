@@ -73,7 +73,7 @@ function HeaderLayout() {
             </label>
 
             {/* Navigation Mobie */}
-            <div className="peer-checked:right-0 site-navigation flex lg:hidden items-start justify-center !font-encode font-bold menu__box fixed top-0 right-[-100%] w-[300px] h-full m-0 py-[80px] px-6 list-none bg-white duration-250 shadow-hamburger-menu z-[5]">
+            <div className="peer-checked:right-0 site-navigation flex lg:hidden items-start justify-center !font-encode font-bold menu__box fixed top-0 right-[-100%] w-[300px] h-full m-0 py-[80px] px-6 list-none bg-white duration-1000 transition-all shadow-hamburger-menu z-[5]">
               <Navigation />
             </div>
           </div>
