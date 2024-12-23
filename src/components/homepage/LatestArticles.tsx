@@ -5,7 +5,7 @@ function LatestArticles() {
         <div className="w-full lg:w-[30%] flex flex-col items-start lg:items-center justify-center">
           <div className="w-full border-b border-b-line-d7 pb-4">
             <h3 className="font-bold text-2xl dark:text-white">
-              Latest Articles STG
+              Latest Articles STG NEW
             </h3>
           </div>
           <div className="box-news-effect flex items-center justify-start lg:justify-center gap-4 my-6 cursor-pointer">
