@@ -1,48 +1,37 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Navigation from "../core/Navigation";
 
-function HeaderLayout() {
-  const toggleTheme = () => {
-    if (document.documentElement.classList.contains("dark")) {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    } else {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    }
-  };
+const lightLogo =
+  "https://itcroctheme.com/wp/benqu-wp/newspaper/wp-content/themes/benqu/assets/img/logo.svg";
 
-  const checkTheme = () => {
-    const theme = localStorage.getItem("theme");
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-      return;
-    }
-    if (theme === "light") {
-      document.documentElement.classList.remove("dark");
-      return;
-    }
-    if (!window.matchMedia) {
-      // matchMedia method not supported
-      return false;
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      //OS theme setting detected as dark
-      document.documentElement.classList.add("dark");
-    }
+const darkLogo =
+  "https://itcroctheme.com/wp/benqu-wp/newspaper/wp-content/themes/benqu/assets/img/logo-white.svg";
+
+function HeaderLayout() {
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+  const toggleTheme = () => {
+    const newTheme = theme === "dark" ? "light" : "dark";
+
+    setTheme(newTheme);
+
+    localStorage.setItem("theme", newTheme);
+
+    document.documentElement.classList.toggle("dark", newTheme === "dark");
   };
 
   useEffect(() => {
-    checkTheme();
-  }, []);
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme]);
 
   return (
     <header className="bg-white sticky top-0 z-20 dark:bg-d-main-color">
       <div className="relative flex items-center justify-between py-4 px-6 2xl:px-2 mx-auto max-w-[1320px] min-h-[75px]">
         <div className="mr-[50px]">
-          <img
-            src="https://itcroctheme.com/wp/benqu-wp/newspaper/wp-content/uploads/sites/5/2022/09/logo-news.png"
-            alt="Logo"
-          />
+          <img src={theme === "dark" ? darkLogo : lightLogo} alt="Logo" />
         </div>
 
         {/* Navigation Desktop */}
@@ -57,7 +46,6 @@ function HeaderLayout() {
               placeholder="Search..."
             />
             <div className="peer-focus:z-[6] peer-focus:size-[30px] transition-all duration-1000 search absolute m-auto top-1/2 lg:top-0 right-[-115px] lg:right-[-115px] 2xl:right-[-250px] left-0 bottom-0 w-[40px] h-[40px] border border-[#dddedf] rounded-full cursor-pointer bg-white dark:bg-transparent"></div>
-          
           </div>
           <div className="hamburger-menu block lg:hidden">
             <input

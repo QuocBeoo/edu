@@ -3,7 +3,7 @@ function Navigation() {
     <ul className="w-full lg:w-auto navigation flex flex-col lg:flex-row items-center lg:gap-8 lg:dark:text-white">
       <li className="group w-full lg:w-auto cursor-pointer pt-3 lg:pt-0 lg:relative lg:flex lg:items-center lg:justify-center">
         <a
-          className="relative uppercase lg:capitalize group-hover:ml-3 lg:group-hover:ml-auto group-hover:text-[#3b60fe] lg:group-hover:text-black"
+          className="relative uppercase lg:capitalize group-hover:ml-3 lg:group-hover:ml-auto group-hover:text-[#3b60fe] lg:group-hover:text-black dark:lg:group-hover:text-primary-active"
           aria-current="page"
         >
           Home
@@ -30,7 +30,7 @@ function Navigation() {
       </li>
       <li className="group w-full lg:w-auto cursor-pointer pt-3 lg:pt-0 lg:relative lg:flex lg:items-center lg:justify-center">
         <a
-          className="relative uppercase lg:capitalize group-hover:ml-3 lg:group-hover:ml-auto group-hover:text-[#3b60fe] lg:group-hover:text-black"
+          className="relative uppercase lg:capitalize group-hover:ml-3 lg:group-hover:ml-auto group-hover:text-[#3b60fe] lg:group-hover:text-black dark:lg:group-hover:text-primary-active"
           aria-current="page"
         >
           Features
@@ -57,7 +57,7 @@ function Navigation() {
       </li>
       <li className="group w-full lg:w-auto cursor-pointer pt-3 lg:pt-0 lg:relative lg:flex lg:items-center lg:justify-center">
         <a
-          className="relative uppercase lg:capitalize group-hover:ml-3 lg:group-hover:ml-auto group-hover:text-[#3b60fe] lg:group-hover:text-black"
+          className="relative uppercase lg:capitalize group-hover:ml-3 lg:group-hover:ml-auto group-hover:text-[#3b60fe] lg:group-hover:text-black dark:lg:group-hover:text-primary-active"
           aria-current="page"
         >
           Categorys
@@ -84,7 +84,7 @@ function Navigation() {
       </li>
       <li className="group w-full lg:w-auto cursor-pointer pt-3 lg:pt-0 lg:relative lg:flex lg:items-center lg:justify-center">
         <a
-          className="relative uppercase lg:capitalize group-hover:ml-3 lg:group-hover:ml-auto group-hover:text-[#3b60fe] lg:group-hover:text-black"
+          className="relative uppercase lg:capitalize group-hover:ml-3 lg:group-hover:ml-auto group-hover:text-[#3b60fe] lg:group-hover:text-black dark:lg:group-hover:text-primary-active"
           aria-current="page"
         >
           Tags
@@ -111,7 +111,7 @@ function Navigation() {
       </li>
       <li className="group w-full lg:w-auto cursor-pointer pt-3 lg:pt-0 lg:relative lg:flex lg:items-center lg:justify-center">
         <a
-          className="relative uppercase lg:capitalize group-hover:ml-3 lg:group-hover:ml-auto group-hover:text-[#3b60fe] lg:group-hover:text-black"
+          className="relative uppercase lg:capitalize group-hover:ml-3 lg:group-hover:ml-auto group-hover:text-[#3b60fe] lg:group-hover:text-black dark:lg:group-hover:text-primary-active"
           aria-current="page"
         >
           Contact Us

@@ -1,14 +1,28 @@
+import { useEffect, useState } from "react";
 import ListBlog from "../core/ListBlog";
 
+const lightLogo =
+  "https://itcroctheme.com/wp/benqu-wp/newspaper/wp-content/themes/benqu/assets/img/logo.svg";
+
+const darkLogo =
+  "https://itcroctheme.com/wp/benqu-wp/newspaper/wp-content/themes/benqu/assets/img/logo-white.svg";
+
 function FooterLayout() {
+  const [theme] = useState(localStorage.getItem("theme") || "light");
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme]);
+
   return (
     <footer className="bg-white dark:bg-d-main-color pt-12">
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-4 xl:flex items-start justify-between py-4 px-6 2xl:px-2 mx-auto max-w-[1320px]">
         <div className="xl:w-[20%] inline-block xl:flex flex-col items-start justify-center gap-6">
-          <img
-            src="https://itcroctheme.com/wp/benqu-wp/newspaper/wp-content/uploads/sites/5/2022/09/logo-news.png"
-            alt="Logo"
-          />
+          <img src={theme === "dark" ? darkLogo : lightLogo} alt="Logo" />
           <div className="text-black-primary-news dark:text-white mt-4">
             There are many variations of the majority alteration in that some
             slightly believable.
