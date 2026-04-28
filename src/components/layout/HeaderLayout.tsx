@@ -30,7 +30,7 @@ function HeaderLayout() {
   return (
     <header className="bg-white sticky top-0 z-20 dark:bg-d-main-color">
       <div className="relative flex items-center justify-between py-4 px-6 2xl:px-2 mx-auto max-w-[1320px] min-h-[75px]">
-        <div className="mr-[50px]">
+        <div className="mr-[-40px] md:mr-[50px]">
           <img src={theme === "dark" ? darkLogo : lightLogo} alt="Logo" />
         </div>
 
